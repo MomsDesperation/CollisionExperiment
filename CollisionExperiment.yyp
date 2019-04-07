@@ -183,14 +183,6 @@
             }
         },
         {
-            "Key": "b23b0dd6-6007-4fd0-9aed-271b3b7300fb",
-            "Value": {
-                "id": "c6348198-f5d8-4660-974c-d6c32ef4df87",
-                "resourcePath": "sprites\\spr_kakaha\\spr_kakaha.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "b5ffe053-dc80-4f42-8cac-fe235d9e9c55",
             "Value": {
                 "id": "9e9c678d-313c-4e1e-b794-9561e79674b2",
@@ -252,14 +244,6 @@
                 "id": "c2f42485-73c8-4814-9d05-0bf80201d0e0",
                 "resourcePath": "views\\db7218e7-cf91-4012-b1aa-0027689951dc.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "e4a69dc3-12ca-4347-a20c-9b2202fb2a88",
-            "Value": {
-                "id": "72883781-7253-42f9-93e9-de1756a41e34",
-                "resourcePath": "objects\\obj_kakahaTest\\obj_kakahaTest.yy",
-                "resourceType": "GMObject"
             }
         },
         {
