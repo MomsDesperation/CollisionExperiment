@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "9750f0b8-dba8-fe94-2af5-57af4201111e",
+            "Value": {
+                "id": "777386cc-2b3d-6d25-9ad2-daef4733a2e5",
+                "resourcePath": "views\\9750f0b8-dba8-fe94-2af5-57af4201111e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a6dfd7d5-4d24-439a-8626-f08e11c393d3",
             "Value": {
                 "id": "cd8d569f-04cd-4dc8-b3aa-6b086a3b81fe",
@@ -172,6 +180,14 @@
                 "id": "29cc8fe7-2616-4043-bfc9-970e18ffb749",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "b23b0dd6-6007-4fd0-9aed-271b3b7300fb",
+            "Value": {
+                "id": "c6348198-f5d8-4660-974c-d6c32ef4df87",
+                "resourcePath": "sprites\\spr_kakaha\\spr_kakaha.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -239,6 +255,14 @@
             }
         },
         {
+            "Key": "e4a69dc3-12ca-4347-a20c-9b2202fb2a88",
+            "Value": {
+                "id": "72883781-7253-42f9-93e9-de1756a41e34",
+                "resourcePath": "objects\\obj_kakahaTest\\obj_kakahaTest.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e7f716ad-4e47-4694-b471-4d407e8e980c",
             "Value": {
                 "id": "b00d58c5-4cf9-4896-aae4-d3eb406f987d",
@@ -275,14 +299,6 @@
             "Value": {
                 "id": "d65ab6fc-b757-43ca-92d5-238bbfb6be1d",
                 "resourcePath": "views\\fbee0a08-55b4-4a0e-aac0-fe06389857ac.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "9750f0b8-dba8-fe94-2af5-57af4201111e",
-            "Value": {
-                "id": "777386cc-2b3d-6d25-9ad2-daef4733a2e5",
-                "resourcePath": "views\\9750f0b8-dba8-fe94-2af5-57af4201111e.yy",
                 "resourceType": "GMFolder"
             }
         }
