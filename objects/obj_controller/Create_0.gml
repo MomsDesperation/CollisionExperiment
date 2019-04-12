@@ -46,7 +46,7 @@
     mul = 1;
     
     
-    conf_name = array_create(10,0);
+    conf_name = array_create(11,0);
     conf_name[0] = "Global Multiplier: Numpad - (/10) / Numpad + (*10) ; Affects all variables"
     conf_name[1] = "Global Shift Multiplier: Left Shift / Multiplier * 10";
     conf_name[2] = "Global gravity: Y - / U + / * Multiplier";
@@ -54,7 +54,10 @@
     conf_name[4] = "Object Inertia: N - / M + / * Multiplier";
     conf_name[5] = "Object Jump Force: I - / O + / * Multiplier";
     conf_name[6] = "Object Move Force: K - / L + / * Multiplier";
-    conf_name[7] = "Global gravity: Y - / U + / * Multiplier";
+    conf_name[7] = "Object_x";
+    conf_name[8] = "Object_y";
+    conf_name[9] = "Object_xspeed";
+    conf_name[10] = "Object_yspeed";
     
     
     
