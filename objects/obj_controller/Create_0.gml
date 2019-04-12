@@ -45,8 +45,6 @@
     shf = 1;
     mul = 1;
     
-    fix = physics_fixture_create();
-    
     
     conf_name = array_create(10,0);
     conf_name[0] = "Global Multiplier: Numpad - (/10) / Numpad + (*10) ; Affects all variables"

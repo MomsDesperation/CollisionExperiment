@@ -20,12 +20,12 @@
                     //var inst, name;
                     inst = instance_position(mouse_x, mouse_y, all);
                     name = object_get_name(inst.object_index);
-                    switch (name != "")
+                    switch (name)
                         {
-                            case name == "obj_player": choose_object = 0; break;
-                            case name == "obj_small": choose_object = 1; break;
-                            case name == "obj_big": choose_object = 2; break;
-                            case name == "obj_enemy": choose_object = 3; break;
+                            case "obj_player": choose_object = 0; break;
+                            case "obj_small": choose_object = 1; break;
+                            case "obj_big": choose_object = 2; break;
+                            case "obj_enemy": choose_object = 3; break;
                         }
                 };
         };
@@ -34,12 +34,12 @@
 //
 #region Get Name
 
-    switch (choose_object >= 0)
+    switch (choose_object)
         {
-            case choose_object == 0: obj = obj_player; obj_name = "obj_player"; break;
-            case choose_object == 1: obj = obj_small; obj_name = "obj_small"; break;
-            case choose_object == 2: obj = obj_big; obj_name = "obj_big"; break;
-            case choose_object == 3: obj = obj_enemy; obj_name = "obj_enemy"; break;
+            case 0: obj = obj_player; obj_name = "obj_player"; break;
+            case 1: obj = obj_small; obj_name = "obj_small"; break;
+            case 2: obj = obj_big; obj_name = "obj_big"; break;
+            case 3: obj = obj_enemy; obj_name = "obj_enemy"; break;
         };
 
 #endregion
