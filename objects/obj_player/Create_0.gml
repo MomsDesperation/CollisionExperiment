@@ -5,5 +5,5 @@ phy_fixed_rotation = true;
 
 mss = phy_mass;
 ine = phy_inertia;
-jmp = 1;
-mvf = 1;
+jmp = 80;
+mvf = 100;

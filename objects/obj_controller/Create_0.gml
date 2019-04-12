@@ -43,8 +43,8 @@
     
     mss = obj.phy_mass;
     ine = obj.phy_inertia;
-    jmp = 1;
-    mvf = 1;
+    jmp = 80;
+    mvf = 100;
     
     shf = 1;
     mul = 1;
