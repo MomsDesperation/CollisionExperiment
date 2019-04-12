@@ -91,6 +91,59 @@
          if keyboard_check_pressed(ord("K")) { obj.mvf -= (con.mul * con.shf) }
          if keyboard_check_pressed(ord("L")) { obj.mvf += (con.mul * con.shf) }
          
+         
+         
 //        }
+
+#endregion
+
+#region Grab
+
+    // Move grabbed item
+    if grab = 1
+        {
+            ginst.phy_position_x = obj.phy_position_x;
+            ginst.phy_position_y = obj.phy_position_y - 64;
+        }
+
+        if keyboard_check_pressed(ord("F")) 
+            {
+                switch (grab)
+                    {
+                        case 0:
+                            ginst = instance_nearest(obj.x, obj.y, obj_big);
+                            ginst.phy_active = 0;
+                            ginst.phy_position_x = obj.phy_position_x;
+                            ginst.phy_position_y = obj.phy_position_y - 64;
+                            grab = 1;
+                            break;
+                        case 1:
+                            ginst.phy_active = 1;
+                            with ginst { physics_apply_local_impulse(0, 0, obj_controller.gforce, 0); };
+                            grab = 0;
+                            break;
+                    }
+                
+                
+                /*
+                if grab = 0 
+                    {
+                        ginst = instance_nearest(obj.x, obj.y, obj_big);
+                        ginst.phy_active = 0;
+                        ginst.phy_position_x = obj.phy_position_x;
+                        ginst.phy_position_y = obj.phy_position_y - 64;
+                        grab = 1;
+                    }
+                if grab = 1
+                    {
+                        ginst.phy_active = 1;
+                        with ginst { physics_apply_local_impulse(0, 0, -obj_controller.gforce, 0); };
+                        grab = 0;
+                    }
+                */
+            }
+
+//collision_circle(x1, y1, rad, obj, prec, notme);
+
 
 #endregion

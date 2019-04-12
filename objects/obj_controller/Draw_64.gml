@@ -2,6 +2,7 @@
 #region Draw name
     draw_set_color(c_white);
     draw_text(32,32,"chosen_object: " + string(obj_name));
+    draw_circle(obj.x,obj.y,gradius,5);
     
 #endregion
 
@@ -30,8 +31,10 @@ conf_num =  array_create(11,0);
             draw_text(832, 32 + 32 + (i * 16), string(conf_num[i]));
         }
         
+    draw_text(32,300,string(collision_circle(obj.x, obj.y, gradius, obj_big, false, false)));
+//    draw_text(32,316,string(with obj {distance_to_object(all)}));
+    with obj { draw_text(32,316,string(distance_to_object(obj_big))) };
+    draw_text(32,332,"Grab " + string(grab));
     
-
-
 
 #endregion

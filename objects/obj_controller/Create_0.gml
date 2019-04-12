@@ -17,7 +17,11 @@
     obj = obj_player;
     con = obj_controller;
     inst = 0;
-
+    
+    //Grab instance
+    ginst = obj.id;
+    grab = 0;
+    
 
 #endregion
 
@@ -44,6 +48,12 @@
     
     shf = 1;
     mul = 1;
+    
+    //Grab Radius
+    gradius = 100;
+    
+    //Grab Force
+    gforce = 50;
     
     
     conf_name = array_create(11,0);
