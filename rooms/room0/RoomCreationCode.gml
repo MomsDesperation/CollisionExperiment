@@ -1,5 +1,4 @@
 
-
 //
 		
 	 if room_next(room) != -1

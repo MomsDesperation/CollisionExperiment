@@ -6,24 +6,6 @@
             if mouse_test = 1 {mouse_test = 0}
             else {mouse_test = 1}
         }
-        
-    if mouse_test = 1
-        {
-            if mouse_check_button_pressed(mb_left)
-                {
-                    enum TestVariables {
-                        xx,
-                        yy,
-                        hs,
-                        vs
-                    };
-                    xx = mouse_x;
-                    yy = mouse_y;
-                    hs = lerp(x,xx,5);
-                    vs = lerp(y,yy,5);
-                    
-                }
-        }
 
 #region Controls
 

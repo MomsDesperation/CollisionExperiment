@@ -1,88 +1,88 @@
 {
-    "id": "89067f89-47b9-4dec-92e0-eeed35cb3ee2",
+    "id": "835fe3c2-37b6-434f-8206-348d58e788bc",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_phy_player",
+    "name": "obj_player2",
     "eventList": [
         {
-            "id": "106cf9b8-ba41-4ee3-94c7-ec75d0c5fd8a",
+            "id": "c3654c17-fc58-f716-e410-edab6f5982f1",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "89067f89-47b9-4dec-92e0-eeed35cb3ee2"
+            "m_owner": "835fe3c2-37b6-434f-8206-348d58e788bc"
         },
         {
-            "id": "a65390ae-a784-bf27-adab-13e1cbadeedd",
+            "id": "abc2172f-9dc1-bc9d-136e-0e49f0eaa8f3",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "89067f89-47b9-4dec-92e0-eeed35cb3ee2"
+            "m_owner": "835fe3c2-37b6-434f-8206-348d58e788bc"
         },
         {
-            "id": "d44af768-2615-4d89-b1f9-59947d3b66ad",
+            "id": "3f843345-9fbb-f7a2-536d-d3114cd3e4ab",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "f0656170-cc2c-469f-860a-83f45223e63d",
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "89067f89-47b9-4dec-92e0-eeed35cb3ee2"
+            "eventtype": 8,
+            "m_owner": "835fe3c2-37b6-434f-8206-348d58e788bc"
         },
         {
-            "id": "22aa1bea-0ebe-4407-8270-70df71fd1392",
+            "id": "7cd7e70e-e760-ca7c-e041-7706c8acbd4e",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 64,
             "eventtype": 8,
-            "m_owner": "89067f89-47b9-4dec-92e0-eeed35cb3ee2"
+            "m_owner": "835fe3c2-37b6-434f-8206-348d58e788bc"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
-    "physicsAngularDamping": 0,
-    "physicsDensity": 0.1,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
     "physicsFriction": 0.2,
     "physicsGroup": 0,
     "physicsKinematic": false,
     "physicsLinearDamping": 0.1,
-    "physicsObject": true,
+    "physicsObject": false,
     "physicsRestitution": 0.1,
     "physicsSensor": false,
     "physicsShape": 1,
     "physicsShapePoints": [
         {
-            "id": "2ecc7c82-667b-4e0d-b564-e28388f9f2a1",
+            "id": "bc9d4554-7351-48fe-9f46-48acd22754e4",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 0,
             "y": 0
         },
         {
-            "id": "98697bd7-c03f-4dcb-863f-99d6750c2f2d",
+            "id": "66605c4e-a442-4962-a383-4aa37cdb664f",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 64,
             "y": 0
         },
         {
-            "id": "d24fcac6-7771-49fa-a4e0-1a1218fe2a18",
+            "id": "60525f8f-9c98-4b30-8040-bd34300f9cba",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 64,
             "y": 64
         },
         {
-            "id": "fb9335a4-7565-447e-b370-a3c57b80d734",
+            "id": "1b3a4aa9-784a-4cf2-9552-0aba138291d2",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 0,
@@ -92,6 +92,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "4c6195ee-82fe-4c69-8b88-ff680d2631af",
+    "spriteId": "7a70e035-cfbc-4a6f-8eb7-c160944b67c9",
     "visible": true
 }

@@ -21,12 +21,13 @@ for (var i = 0; i < 10; i += 1)
 
 
 draw_text(32,32,"i_mass" + string(i_mass));
-draw_text(32,32+16,"phy_mass" + string(phy_mass));
-draw_text(32,32+32,"i_fixture" + string(i_fixture));
+draw_text(32,32+16,"phy_mass " + string(phy_mass));
+draw_text(32,64,"global_gravity " + string(150));
 draw_text(32,64+16,"phy_position_x" + string(phy_position_x));
 draw_text(32,64+32,"phy_speed_x" + string(phy_speed_x));
 draw_text(32,64+32+16,"phy_position_y" + string(phy_position_y));
 draw_text(32,64+64,"phy_speed_y" + string(phy_speed_y));
+
 
 
 

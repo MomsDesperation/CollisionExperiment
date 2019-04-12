@@ -42,6 +42,20 @@
 			physics_fixture_set_linear_damping(fix_Ball, i_fixture);
 			i_fixture -= 0.1;
 		}
+	
+	
+	
+	if keyboard_check_pressed(ord("N"))
+		{
+			i2_fixture -= 0.1;
+			physics_fixture_set_friction(fix_Ball, i2_fixture);
+		}
+	
+	if keyboard_check_pressed(ord("M"))
+		{
+			i2_fixture += 0.1;
+			physics_fixture_set_friction(fix_Ball, i2_fixture);
+		}
 
 #endregion
 
