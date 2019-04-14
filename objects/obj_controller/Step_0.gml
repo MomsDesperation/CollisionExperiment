@@ -1,8 +1,10 @@
 
 #region Room Controls
 
-    if keyboard_check_pressed(ord("R")) { room_restart() };
-    if keyboard_check_pressed(vk_escape) { game_end() };
+    if keyboard_check_pressed(ord("R")) || keyboard_check_pressed(vk_f3) { room_restart(); };
+    if keyboard_check_pressed(vk_escape) { game_end(); };
+    if keyboard_check_pressed(vk_f1) { room_goto_previous(); };
+    if keyboard_check_pressed(vk_f2) { room_goto_next(); };
 
 #endregion
 //
@@ -99,6 +101,7 @@
 
 #region Grab
 
+
     // Move grabbed item
     if grab = 1
         {
@@ -111,12 +114,28 @@
                 switch (grab)
                     {
                         case 0:
-                            ginst = instance_nearest(obj.x, obj.y, obj_big);
+                            ginsts[0] = distance_to_object( obj_big );
+                            ginsts[1] = distance_to_object( obj_small );
+                            ginsts[2] = distance_to_object( obj_enemy );
+                            var m = min(ginsts[0],ginsts[1],ginsts[2]);
+                            /*
+                            switch (m)
+                                {
+                                case distance_to_object( obj_big ): ginst = obj_big; break;
+                                case distance_to_object( obj_small ): ginst = obj_small; break;
+                                case distance_to_object( obj_enemy ): ginst = obj_enemy; break;
+                                }
+                                ginst.phy_active = 0;
+                                ginst.phy_position_x = obj.phy_position_x;
+                                ginst.phy_position_y = obj.phy_position_y - 64;
+                                grab = 1;
+                                break;
+                            */
+                            ginst = obj_big;
                             ginst.phy_active = 0;
                             ginst.phy_position_x = obj.phy_position_x;
                             ginst.phy_position_y = obj.phy_position_y - 64;
                             grab = 1;
-                            break;
                         case 1:
                             ginst.phy_active = 1;
                             with ginst { physics_apply_local_impulse(0, 0, obj_controller.gforce, 0); };

@@ -18,9 +18,7 @@
     con = obj_controller;
     inst = 0;
     
-    //Grab instance
-    ginst = obj.id;
-    grab = 0;
+
     
 
 #endregion
@@ -49,11 +47,23 @@
     shf = 1;
     mul = 1;
     
+    
+    // G R A B
+    
+    //Grab instance
+    ginst = obj.id;
+    ginsts = array_create(3,0);
+    grab = 0;
+    
     //Grab Radius
     gradius = 100;
     
     //Grab Force
     gforce = 50;
+    
+    // Find the distance to nearest object
+    glist = ds_list_create();
+    
     
     
     conf_name = array_create(11,0);

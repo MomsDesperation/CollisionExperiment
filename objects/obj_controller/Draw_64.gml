@@ -33,8 +33,12 @@ conf_num =  array_create(11,0);
         
     draw_text(32,300,string(collision_circle(obj.x, obj.y, gradius, obj_big, false, false)));
 //    draw_text(32,316,string(with obj {distance_to_object(all)}));
-    with obj { draw_text(32,316,string(distance_to_object(obj_big))) };
-    draw_text(32,332,"Grab " + string(grab));
+    
+    draw_text(32,316,"Grab " + string(grab));
+    with obj_player { draw_text(32,332, "Distance to Big " + string(distance_to_object(obj_big))) };
+    with obj_player { draw_text(32,332 + 16, "Distance to Small " + string(distance_to_object(obj_small))) };
+    with obj_player { draw_text(32,332 + 32, "Distance to Enemy " + string(distance_to_object(obj_enemy))) };
+    draw_text(32,332 + 32 + 16, "Min (7,39,8,3,5)" + string(min(7,32,8,3,5)));
     
 
 #endregion
